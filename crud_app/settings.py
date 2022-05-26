@@ -22,10 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#%*st!5_gcq8#_5#k*a4@cv$r%34f-+utpwb#i)rhe_*ft#0tw'
+SECRET_KEY = '*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['drf-crud-bie7u.herokuapp.com']
 
@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'crud_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd907u0j9t23uv', 
-        'USER': 'xbpwrxrdtmjdgp', 
-        'PASSWORD': '246a0eef89d24aae31c9fa46232318aa8d0edc2315283b0107694ffe56edad47',
-        'HOST': 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com', 
+        'NAME': '*', 
+        'USER': '*', 
+        'PASSWORD': '*',
+        'HOST': '*', 
         'PORT': '5432',
     }
 }
